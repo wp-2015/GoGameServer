@@ -45,12 +45,13 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WorkProgram/project-s-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../WorkProgram/project-s-server" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pipeline\CubeWorld\GoGameServer\GoServer\utils" />
       <recent name="D:\STUDY\UnityFramework\GoServer\src" />
       <recent name="D:\STUDY\UnityFramework\GoServer" />
     </key>
@@ -112,31 +113,31 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="721" y="180" key="#go_build_main.go/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1624613013467" />
-    <state x="3365" y="311" key="FileChooserDialogImpl" timestamp="1625472615427">
+    <state x="3365" y="311" key="FileChooserDialogImpl" timestamp="1631003398965">
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1624847597247" />
-    <state x="3365" y="311" key="FileChooserDialogImpl/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1625472615427" />
-    <state width="2005" height="261" key="GridCell.Tab.0.bottom" timestamp="1625797796185">
+    <state x="3365" y="311" key="FileChooserDialogImpl/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1631003398965" />
+    <state width="2005" height="261" key="GridCell.Tab.0.bottom" timestamp="1631019169569">
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="261" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1625712415424" />
-    <state width="2005" height="261" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1625797796185" />
-    <state width="2005" height="261" key="GridCell.Tab.0.center" timestamp="1625797796185">
+    <state width="2005" height="261" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1631002913118" />
+    <state width="2005" height="261" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1631019169569" />
+    <state width="2005" height="261" key="GridCell.Tab.0.center" timestamp="1631019169569">
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="261" key="GridCell.Tab.0.center/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1625712415413" />
-    <state width="2005" height="261" key="GridCell.Tab.0.center/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1625797796185" />
-    <state width="2005" height="261" key="GridCell.Tab.0.left" timestamp="1625797796185">
+    <state width="2005" height="261" key="GridCell.Tab.0.center/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1631002913118" />
+    <state width="2005" height="261" key="GridCell.Tab.0.center/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1631019169569" />
+    <state width="2005" height="261" key="GridCell.Tab.0.left" timestamp="1631019169569">
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="261" key="GridCell.Tab.0.left/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1625712415345" />
-    <state width="2005" height="261" key="GridCell.Tab.0.left/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1625797796185" />
-    <state width="2005" height="261" key="GridCell.Tab.0.right" timestamp="1625797796185">
+    <state width="2005" height="261" key="GridCell.Tab.0.left/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1631002913118" />
+    <state width="2005" height="261" key="GridCell.Tab.0.left/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1631019169569" />
+    <state width="2005" height="261" key="GridCell.Tab.0.right" timestamp="1631019169569">
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="261" key="GridCell.Tab.0.right/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1625712415414" />
-    <state width="2005" height="261" key="GridCell.Tab.0.right/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1625797796185" />
+    <state width="2005" height="261" key="GridCell.Tab.0.right/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1631002913118" />
+    <state width="2005" height="261" key="GridCell.Tab.0.right/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1631019169569" />
     <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1625733049363">
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
@@ -161,10 +162,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="962" y="210" key="SettingsEditor/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1626853799793" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1625726033794">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1631005691182">
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1625726033794" />
+    <state width="498" height="446" key="SwitcherDM/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1631005691182" />
     <state x="3735" y="580" width="600" height="532" key="find.popup" timestamp="1625473647077">
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
