@@ -79,6 +79,7 @@ func (c *Connection) StartWriter() {
 					fmt.Println("Send Buff Data error:, ", err, " Conn Writer exit")
 					return
 				}
+				fmt.Println("发送成功", len(data))
 			} else {
 				fmt.Println("msgBuffChan is Closed")
 				break

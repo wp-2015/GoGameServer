@@ -8,7 +8,7 @@ import (
 type MapCreater struct {
 	row int //当前行
 	//随机种子，当前所有存在的行的都保存
-	mapRandSeed[10] int
+	mapRandSeed[utils.MapRow] int
 	mapRandSeedHead int
 
 	//间隔
@@ -23,11 +23,15 @@ func NewMapCreater() *MapCreater{
 		timeRecord: 0,
 		mapRandSeedHead: 0,
 	}
-	nc.interval = 1000
-	for i := 0; i < 10; i++ {
+	nc.interval = 5000
+	for i := 0; i < utils.MapRow; i++ {
 		nc.mapRandSeed[i] = i
 	}
 	return nc
+}
+
+func (mc *MapCreater) GetMapRandSeedList() [utils.MapRow]int  {
+	return mc.mapRandSeed
 }
 
 func (mc *MapCreater) Update(millisecond int64){
@@ -39,25 +43,23 @@ func (mc *MapCreater) Update(millisecond int64){
 }
 
 func (mc *MapCreater) MakeNewLine(time int64)  {
-	fmt.Println("1111")
+	fmt.Println("MakeNewLine")
 	mc.mapRandSeed[mc.mapRandSeedHead] = int(time)
 	mc.mapRandSeedHead++
-	if mc.mapRandSeedHead >= 10{
+	if mc.mapRandSeedHead >= utils.MapRow{
 		mc.mapRandSeedHead = 0
 	}
 	mc.SortSeed()
 }
 
 func (mc *MapCreater) SortSeed(){
-	var res[10] int
+	var res[utils.MapRow] int
 	index := mc.mapRandSeedHead
-	for i := 0; i < 10; i++{
+	for i := utils.MapRow - 1; i > -1; i--{
 		res[i] = mc.mapRandSeed[index]
 		index++
-		if index >= 10{
+		if index >= utils.MapRow{
 			index = 0
 		}
 	}
-
-	fmt.Println(res)
 }
