@@ -9,8 +9,13 @@ type Message struct {
 
 //NewMsgPackage 创建一个Message消息包
 func NewMsgPackage(ID uint16, data []byte) *Message {
+	//return &Message{
+	//	DataLen: uint32(uint32(len(data)) - defaultHeaderLen),
+	//	ID:      ID,
+	//	Data:    data,
+	//}
 	return &Message{
-		DataLen: uint32(uint32(len(data)) - defaultHeaderLen),
+		DataLen: uint32(len(data)),
 		ID:      ID,
 		Data:    data,
 	}
